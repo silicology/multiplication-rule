@@ -1,6 +1,6 @@
 fn calculate_series() -> f64 {
     let mut product = 1.0;
-    for i in 0..100 {
+    for i in 0..200 {
         product *= (594 - i) as f64 / (600 - i) as f64;
     }
     product
